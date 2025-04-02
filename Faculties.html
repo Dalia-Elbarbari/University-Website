@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faculties Page</title>
+    <style>
+        body {font-family: sans-serif; margin:0; padding: 0; line-height:1.5; }
+        .header { display: flex; align-items: center; justify-content: space-between; line-height:1.5; padding: 10px 20px; background-color: #1E3A5F;color:#000000;}
+        .header-left { display: flex; align-items: center; line-height:1.5;}
+        .header .logo img {height: 40px; align-items: center;line-height:1.5;width:"50"; height:"50";}
+        .nav { display: flex; list-style: none; padding: 0; margin: 0; margin-left: 20px; line-height:1.5; color:white;}
+        .nav a { margin-left: 20px; text-decoration: none; color: #1E3A5F;line-height:1.5;}
+        .header .search-bar {display: flex; align-items: center;color: #1E3A5F; line-height:1.5;}
+        .header .search input { padding: 8px; border: 1px solid #1E3A5F;line-height:1.5}
+        .breadcrumb {background-color: #D9D9D9; padding: 10px; text-decoration: none; color: black; margin-right: 5px; line-height:1.5;}
+        .main-content { padding: 20px; line-height:1.5;}
+        .content-area {border: 2px solid #000000; min-height: 200px; margin-bottom: 20px; text-align: center; line-height: 100px;line-height:1.5;}
+        .faculties-section { margin-top: 20px;line-height:1.5;}
+        .faculty-item { display: flex;  align-items: flex-start; margin-bottom: 10px; border: 1px solid #ddd; padding: 10px;line-height:1.5;}
+        .faculty-image { width: 100px; height: 80px; border: 1px solid #E0E5E5; margin-right: 10px; text-align: center; line-height: 80px; display: flex; align-items: center; justify-content: center;line-height:1.5;}
+        .faculty-image img { max-width: 100%; max-height: 100%; border-top: 1px solid black;line-height:1.5;}
+        .faculty-text { flex: 1; margin-right: 10px; line-height:1.5}
+        .footer { background-color: #1E3A5F; padding: 10px; text-align: left; border: 1px solid #C9A227; line-height:1.5;}
+        .image {width:auto; height:50%;}
+    </style>
+</head>
+<body>
+<div class="header">
+    <div class="header-left">
+        <div class="logo"><img src="photos/Logo.jpg" alt="logo" ></div>
+        <div class="nav">
+            <a href="about-us.html">About us</a>
+            <a href="admissions.html">Admissions</a>
+            <a href="academic.html">Academic</a>
+            <a href="student-life.html">student life</a>
+        </div>
+    </div>
+    <div class="search-bar">
+        <input type="text" placeholder="QSearch">
+        <button>Search</button>
+    </div>
+</div>
+
+<div class="breadcrumb">
+    <a href="index.html">Home</a> <span>></span>
+    <a href="academic.html">Academic</a> <span>></span>
+    <span>Faculties</span>
+</div>
+
+<div class="main-content">
+    <div class="image"> <img src="photos/picture.jpg" alt="picture" width=100% height= auto>
+      <h2>Faculties</h2>
+    </div>
+    <div class="faculties-section">
+        <div class="faculty-item">
+            <div class="faculty-image"><img src="photos/Dentistry.jpg" alt="Dentistry"></div>
+            <div class="faculty-text">
+                <p>A Faculty of Dentistry is part of a university that specializes in the education
+                and training of dentists. At the heart of its mission is imparting sound theoretical
+                knowledge and an extensive repertoire of clinical skills so that students are enabled to diagnose,
+                treat and prevent oral diseases. In this model, the faculty also teaches clinics,
+                where students are included in a hands-on experience of working with patients with the support
+                of experienced faculty, building their skills and confidence.
+                </p>
+            </div>
+        </div>
+
+        <div class="faculty-item">
+            <div class="faculty-image"><img src="photos/Computer Science.jpg" alt="Computer-Science"></div>
+            <div class="faculty-text">
+                <p>The Faculty of Computer Science stands as a dynamic center within the university,
+                dedicated to cultivating the next generation of tech innovators and advancing the frontiers of computing.
+                It's a place where students delve into the intricacies of software development,
+                explore the vast potential of artificial intelligence and data science,
+                and learn to safeguard digital information through cybersecurity studies.
+                </p>
+            </div>
+        </div>
+
+        <div class="faculty-item">
+            <div class="faculty-image"><img src="photos/Engineering.jpg" alt="Engineering"></div>
+            <div class="faculty-text">
+                <p>The Engineering faculty exceptional student experience is driven by low student-to-professor ratios,
+                strong ties to industry, a strong commitment to teaching, and exposure to current and relevant curricula.
+                Engineering degrees can lead to a vast number of career opportunities,
+                with graduates placed in almost every sector of the economy.</p>
+                <p>The Faculty has five departments:</p>
+                <ul>
+                    <li>Architectural Engineering</li>
+                    <li>Chemical Engineering</li>
+                    <li>Civil Engineering</li>
+                    <li>Electrical Engineering</li>
+                    <li>Mechanical Engineering</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="faculty-item">
+            <div class="faculty-image"><img src="photos/Art.jpg" alt="Arts"></div>
+            <div class="faculty-text">
+                <p>An Art faculty is where students learn to create art, study art history, and explore different artistic styles.
+                They experiment with various mediums and techniques, and often share their work with the community through exhibitions.
+                </p>
+            </div>
+        </div>
+
+        <div class="faculty-item">
+            <div class="faculty-image"><img src="photos/Nursing.jpg" alt="Nursing"></div>
+            <div class="faculty-text">
+                <p>A Nursing faculty trains students to become nurses, teaching them how to care for patients in hospitals and communities.
+                They also do research to improve nursing practices and advocate for better healthcare for everyone.
+                </p>
+            </div>
+        </div>
+
+        <div class="faculty-item">
+            <div class="faculty-image"><img src="photos/Law.jpg" alt="Law"></div>
+            <div class="faculty-text">
+                <p>A Law faculty Develop the capacity of students to analytical thinking and Altoeseli and
+                imagination and creative assets to provide students with knowledge in
+                legal sciences, economic and political.
+                Preparing legal scientifically qualified to carry out the tasks and illegal
+                activities so that they are able to contribute in different sectors requested
+                by the development plans in repeated dear
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="footer">
+    Contact us
+
+</div>
+
+</body>
+</html>
